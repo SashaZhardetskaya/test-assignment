@@ -31,14 +31,14 @@ function showMmenu(){
 		'display': 'block'
 	});
 	mmenu='open';
-	$('.burger-icon').fadeOut(800);
-	$('.close-icon').fadeIn(800);
+	$('.nav-pass').fadeOut(800);
+	$('.nav-active').fadeIn(800);
 	}
 	else{ 
 	$('.nav-links').css('display','none');
 	mmenu = 'close';
-	$('.burger-icon').fadeIn(800);
-	$('.close-icon').fadeOut(800);
+	$('.nav-pass').fadeIn(800);
+	$('.nav-active').fadeOut(800);
 	}
 }
 

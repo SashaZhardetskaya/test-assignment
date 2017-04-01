@@ -121,13 +121,13 @@ body {
         position: relative;
         left: 10%;
     }
-    nav {
-        height: 100%;
-        width: 100%;
-        a {
-            height: 100%;
-        }
-    }
+    // nav {
+    //     height: 100%;
+    //     width: 100%;
+    //     a {
+    //         height: 100%;
+    //     }
+    // }
     .nav-links {
         display: none;
         // display: inline;
@@ -152,10 +152,17 @@ body {
         // top: 5%;
         right: 10%;
         a {
-            border: 1px solid black;
+            border: 1px solid white;
             @include border-radius (25px);
             position: relative;
-            top: 7%;
+            top: 15%;
+            padding: 5px 10px 5px 10px;
+            cursor: pointer;
+            font-size: 10px;
+            font-family: 'ofont.ru_Segoe UI Semibold';
+            &:hover, &:focus {
+                background: #ffcb00;
+            }
         }
     }
     // &.nav-top {
@@ -166,17 +173,12 @@ body {
         background: white;
         .logo {
             display: inline-block;
-            height: 52px;
+            height: 72px;
             width: 180px;
             background: url(../img/logo-small.png) center center no-repeat;
         }
         // .nav-links {
         //     padding: 24px 30px 10px 45px;
-        // }
-        // .send-request-nav {
-        //     a {
-        //         padding: 13px 3px 13px 3px;
-        //     }
         // }
     }
 }
@@ -191,12 +193,14 @@ body {
     outline: none;
     .nav-active {
         display: block;
+        margin-top: 32%;
         height: 24px;
         width: 29px;
         background: url(../img/nav-active.png) center center no-repeat; 
     }
-    .close-icon {
-        display: none;
+    .nav-pass {
+        display: block;
+        margin-top: 32%;
         height: 24px;
         width: 29px;
         background: url(../img/nav-pass.png) center center no-repeat; 
@@ -328,16 +332,22 @@ form {
     border: transparent;
     border-bottom: 2px solid black;
     font-family: "ofont.ru_Segoe UI Semibold";
+    outline: none;
 }
 .send-request-contact {
     input {
         display: inline;
         background: transparent;
         position: relative;
-        right: 15%;  
+        right: 25%; 
+        padding: 7px 40px 7px 40px;
         font-family: "segoeuil";
         outline: none;
         @include border-radius (25px);
+        border: 1px solid white;
+        &:hover, &:focus {
+            background: #ffcb00;
+        }
     } 
 }
 

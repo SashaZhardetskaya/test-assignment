@@ -76,11 +76,6 @@ body {
     background: url(../img/logo.png) center center no-repeat;
     position: relative;
     left: 10%; }
-  #nav-main nav {
-    height: 100%;
-    width: 100%; }
-    #nav-main nav a {
-      height: 100%; }
   #nav-main .nav-links {
     display: none;
     cursor: pointer;
@@ -103,19 +98,25 @@ body {
     position: relative;
     right: 10%; }
     #nav-main .send-request-nav a {
-      border: 1px solid black;
+      border: 1px solid white;
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       -ms-border-radius: 25px;
       -o-border-radius: 25px;
       border-radius: 25px;
       position: relative;
-      top: 7%; }
+      top: 15%;
+      padding: 5px 10px 5px 10px;
+      cursor: pointer;
+      font-size: 10px;
+      font-family: 'ofont.ru_Segoe UI Semibold'; }
+      #nav-main .send-request-nav a:hover, #nav-main .send-request-nav a:focus {
+        background: #ffcb00; }
   #nav-main.nav-down {
     background: white; }
     #nav-main.nav-down .logo {
       display: inline-block;
-      height: 52px;
+      height: 72px;
       width: 180px;
       background: url(../img/logo-small.png) center center no-repeat; }
 
@@ -125,11 +126,13 @@ body {
   outline: none; }
   .menu-burger .nav-active {
     display: block;
+    margin-top: 32%;
     height: 24px;
     width: 29px;
     background: url(../img/nav-active.png) center center no-repeat; }
-  .menu-burger .close-icon {
-    display: none;
+  .menu-burger .nav-pass {
+    display: block;
+    margin-top: 32%;
     height: 24px;
     width: 29px;
     background: url(../img/nav-pass.png) center center no-repeat; }
@@ -219,20 +222,25 @@ form {
   background: transparent;
   border: transparent;
   border-bottom: 2px solid black;
-  font-family: "ofont.ru_Segoe UI Semibold"; }
+  font-family: "ofont.ru_Segoe UI Semibold";
+  outline: none; }
 
 .send-request-contact input {
   display: inline;
   background: transparent;
   position: relative;
-  right: 15%;
+  right: 25%;
+  padding: 7px 40px 7px 40px;
   font-family: "segoeuil";
   outline: none;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
-  border-radius: 25px; }
+  border-radius: 25px;
+  border: 1px solid white; }
+  .send-request-contact input:hover, .send-request-contact input:focus {
+    background: #ffcb00; }
 
 .mause {
   position: absolute;
