@@ -75,9 +75,10 @@ body {
     width: 180px;
     background: url(../img/logo.png) center center no-repeat;
     position: relative;
-    left: 10%; }
+    left: 14%; }
   #nav-main .nav-links {
     display: none;
+    height: 20px;
     cursor: pointer;
     position: relative;
     top: 10px;
@@ -99,7 +100,7 @@ body {
   #nav-main .send-request-nav {
     display: inline;
     position: relative;
-    right: 10%; }
+    right: 15%; }
     @media (max-width: 360px) {
       #nav-main .send-request-nav {
         display: none; } }
@@ -147,13 +148,13 @@ body {
     margin-top: 32%;
     height: 24px;
     width: 29px;
-    background: url(../img/nav-pass.png) center center no-repeat; }
+    background: url(../img/nav-active.png) center center no-repeat; }
   .menu-burger .nav-pass {
     display: block;
     margin-top: 32%;
     height: 24px;
     width: 29px;
-    background: url(../img/nav-active.png) center center no-repeat; }
+    background: url(../img/nav-pass.png) center center no-repeat; }
 
 .home {
   height: 100vh;
@@ -244,7 +245,7 @@ form {
 
 .user-name {
   position: relative;
-  left: 15%;
+  left: 18%;
   font-family: "ofont.ru_Segoe UI Semibold"; }
 
 .user-email {
@@ -256,7 +257,7 @@ form {
 
 .user-phone {
   position: relative;
-  right: 15%;
+  right: 18%;
   font-family: "ofont.ru_Segoe UI Semibold"; }
   @media (max-width: 700px) {
     .user-phone {
@@ -282,7 +283,7 @@ form {
   display: inline;
   background: transparent;
   position: relative;
-  right: 25%;
+  right: 30%;
   padding: 7px 40px 7px 40px;
   font-family: "segoeuil";
   outline: none;
@@ -307,6 +308,7 @@ form {
   text-align: center;
   margin-top: 100px; }
   .mause p {
+    padding: 0;
     margin: 0;
     color: white;
     font-family: 'segoeuil'; }
