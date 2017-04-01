@@ -4,6 +4,15 @@
 // @import './fonts';
 
 @font-face {
+  font-family: 'ofont.ru_Segoe UI Semibold';
+  src: url('ofont.ru_Segoe UI Semibold.eot');
+  src: url('ofont.ru_Segoe UI Semibold.woff2') format('woff2'),
+       url('ofont.ru_Segoe UI Semibold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'SegoeUI-Semilight';
   src: url('SegoeUI-Semilight.woff') format('woff');
   font-weight: normal;
@@ -247,14 +256,17 @@ video {
     .top-text {
         font-size: 2.1em;
         margin: 0;
+        font-family: 'ofont.ru_Segoe UI Semibold';
     }
     .mid-text {
-        font-size: 3.1em;
+        font-size: 4.1em;
         margin: 0;
+        font-family: 'Raleway-Bold';
     }
     .bottom-text {
         font-size: 2.1em;
         margin: 0;
+        font-family: 'ofont.ru_Segoe UI Semibold';
     }
 }
 
@@ -281,22 +293,22 @@ form {
 .user-name {
     position: relative;
     left: 15%;
-    font-family: "segoeuil";
+    font-family: "ofont.ru_Segoe UI Semibold";
 }
 .user-email {
-    font-family: "segoeuil";
+    font-family: "ofont.ru_Segoe UI Semibold";
 }
 .user-phone {
     position: relative;
     right: 15%;
-    font-family: "segoeuil";
+    font-family: "ofont.ru_Segoe UI Semibold";
 }
 .user-contact {
     display: inline;
     background: transparent;
     border: transparent;
     border-bottom: 2px solid black;
-    font-family: "segoeuil";
+    font-family: "ofont.ru_Segoe UI Semibold";
 }
 .send-request-contact {
     input {
