@@ -1,10 +1,69 @@
 body {
-  margin: 0; }
+  margin: 0;
+  height: 5000px; }
+
+#nav-main {
+  z-index: 444;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  text-transform: uppercase;
+  background: transparent;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -ms-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  transition-duration: 0.6s; }
+  #nav-main nav {
+    height: 100%;
+    width: 100%; }
+    #nav-main nav a {
+      height: 100%; }
+  #nav-main .nav-links {
+    display: inline;
+    cursor: pointer;
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -ms-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s; }
+    #nav-main .nav-links a {
+      text-decoration: none; }
+      #nav-main .nav-links a:hover, #nav-main .nav-links a:active, #nav-main .nav-links a:focus {
+        color: rgba(249, 217, 68, 0.7);
+        -webkit-transition-duration: 0.7s;
+        -moz-transition-duration: 0.7s;
+        -ms-transition-duration: 0.7s;
+        -o-transition-duration: 0.7s;
+        transition-duration: 0.7s; }
+  #nav-main .send-request-nav {
+    display: inline; }
+  #nav-main.nav-down {
+    background: white; }
+    #nav-main.nav-down .nav-links {
+      padding: 24px 30px 10px 45px; }
+    #nav-main.nav-down .send-request-nav {
+      font-family: 'MyriadPro-Regular';
+      margin: 25px 0 20px 0; }
+      #nav-main.nav-down .send-request-nav a {
+        padding: 13px 3px 13px 3px;
+        border: 1px solid rgba(249, 217, 68, 0.7);
+        border-bottom: transparent;
+        background: transparent; }
 
 .home {
   height: 100vh;
   position: relative;
   overflow: hidden; }
+
+video {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  padding: 0; }
 
 .content {
   position: relative;
@@ -16,18 +75,29 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  z-index: 444;
+  z-index: 3;
   background-color: rgba(251, 210, 37, 0.73); }
   .content hr {
     margin: 0;
     padding: 0;
     width: 10%; }
 
-video {
-  width: 100vw;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  margin: auto;
-  position: absolute;
-  padding: 0; }
+form {
+  display: flex;
+  flex-direction: row; }
+
+.user-contacts-section {
+  display: flex;
+  flex-direction: row; }
+
+.user-name {
+  display: inline; }
+
+.user-email {
+  display: inline; }
+
+.user-phone {
+  display: inline; }
+
+.send-request-contact {
+  display: inline; }
