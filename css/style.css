@@ -53,7 +53,7 @@
 
 body {
   margin: 0;
-  height: 5000px; }
+  height: 130vh; }
 
 #nav-main {
   z-index: 444;
@@ -136,6 +136,9 @@ body {
   position: fixed;
   right: 50%;
   top: 55px; }
+  @media (max-width: 600px) {
+    .menu-burger {
+      display: none; } }
   .menu-burger .nav-active {
     display: block;
     margin-top: 32%;
@@ -153,6 +156,11 @@ body {
   height: 100vh;
   position: relative;
   overflow: hidden; }
+  @media (max-width: 800px) {
+    .home {
+      height: 100%;
+      width: auto;
+      overflow-y: hidden; } }
 
 video {
   width: 100vw;
@@ -164,7 +172,7 @@ video {
   padding: 0; }
   @media (max-width: 800px) {
     video {
-      height: 100vh;
+      height: 100%;
       width: auto; } }
 
 .content {
@@ -182,7 +190,7 @@ video {
 
 .main-text {
   position: relative;
-  top: 40%;
+  top: 200px;
   left: 15%; }
   .main-text hr {
     margin: 0;
@@ -212,7 +220,9 @@ form {
   bottom: 15%; }
   @media (max-width: 700px) {
     form {
-      flex-direction: column; } }
+      flex-direction: column;
+      top: 400px;
+      bottom: 5%; } }
 
 .user-contacts-section {
   display: flex;

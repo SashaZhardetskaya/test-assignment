@@ -90,7 +90,7 @@
 
 body {
     margin: 0;
-    height: 5000px;
+    height: 130vh;
 }
 
 
@@ -205,6 +205,9 @@ body {
     position: fixed;
     right: 50%;
     top: 55px;
+    @media (max-width: 600px) {
+        display: none;
+    } 
     .nav-active {
         display: block;
         margin-top: 32%;
@@ -227,7 +230,12 @@ body {
     height: 100vh;
     // height: auto;
     position: relative;
-    overflow: hidden;    
+    overflow: hidden; 
+    @media (max-width: 800px) {
+        height: 100%;
+        width: auto;
+        overflow-y: hidden;
+    }  
 }
 
 video {
@@ -243,7 +251,7 @@ video {
     // left: 0%;
     padding: 0;
     @media (max-width: 800px) {
-        height: 100vh;
+        height: 100%;
         width: auto;
     }
 }
@@ -270,7 +278,7 @@ video {
 
 .main-text {
     position: relative;
-    top: 40%;
+    top: 200px;
     left: 15%;
     hr {
         margin: 0;
@@ -306,6 +314,8 @@ form {
     bottom: 15%;
     @media (max-width: 700px) {
         flex-direction: column;
+        top: 400px;
+        bottom: 5%;
     }
 }
 .user-contacts-section {
