@@ -106,7 +106,18 @@ video {
   .main-text hr {
     margin: 0;
     padding: 0;
-    width: 40px; }
+    width: 40px;
+    background: black;
+    border: 1px solid black; }
+  .main-text .top-text {
+    font-size: 2.1em;
+    margin: 0; }
+  .main-text .mid-text {
+    font-size: 3.1em;
+    margin: 0; }
+  .main-text .bottom-text {
+    font-size: 2.1em;
+    margin: 0; }
 
 form {
   display: flex;
