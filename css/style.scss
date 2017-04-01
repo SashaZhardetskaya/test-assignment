@@ -177,10 +177,11 @@ video {
 .main-text {
     position: relative;
     top: 40%;
+    left: 15%;
     hr {
         margin: 0;
         padding: 0;
-        width: 10%;
+        width: 40px;
     }
 }
 
@@ -203,15 +204,17 @@ form {
     }
 
 }
-// .user-name {
-//     display: inline;
-// }
+.user-name {
+    position: relative;
+    left: 15%;
+}
 // .user-email {
 //     display: inline;
 // }
-// .user-phone {
-//     display: inline;
-// }
+.user-phone {
+    position: relative;
+    right: 15%;
+}
 .user-contact {
     display: inline;
     background: transparent;
@@ -221,7 +224,9 @@ form {
 .send-request-contact {
     input {
         display: inline;
-        background: transparent;  
+        background: transparent;
+        position: relative;
+        right: 15%;  
     } 
 }
 

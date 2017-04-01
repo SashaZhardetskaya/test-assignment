@@ -101,11 +101,12 @@ video {
 
 .main-text {
   position: relative;
-  top: 40%; }
+  top: 40%;
+  left: 15%; }
   .main-text hr {
     margin: 0;
     padding: 0;
-    width: 10%; }
+    width: 40px; }
 
 form {
   display: flex;
@@ -123,6 +124,14 @@ form {
   .user-contacts-section p {
     margin: 0; }
 
+.user-name {
+  position: relative;
+  left: 15%; }
+
+.user-phone {
+  position: relative;
+  right: 15%; }
+
 .user-contact {
   display: inline;
   background: transparent;
@@ -131,7 +140,9 @@ form {
 
 .send-request-contact input {
   display: inline;
-  background: transparent; }
+  background: transparent;
+  position: relative;
+  right: 15%; }
 
 .mause {
   position: absolute;
