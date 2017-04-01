@@ -188,12 +188,19 @@ video {
 form {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
     position: absolute;
     bottom: 15%;
 }
 .user-contacts-section {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    p {
+        margin: 0;
+    }
 
 }
 // .user-name {
