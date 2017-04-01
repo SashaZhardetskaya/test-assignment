@@ -242,7 +242,7 @@ video {
     // top: 0%;
     // left: 0%;
     padding: 0;
-    @media (max-width: 1000px) {
+    @media (max-width: 800px) {
         height: 100vh;
         width: auto;
     }
@@ -304,6 +304,9 @@ form {
     justify-content: space-between;
     position: absolute;
     bottom: 15%;
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
 }
 .user-contacts-section {
     display: flex;
@@ -314,7 +317,9 @@ form {
     p {
         margin: 0;
     }
-
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
 }
 .user-name {
     position: relative;
@@ -323,11 +328,19 @@ form {
 }
 .user-email {
     font-family: "ofont.ru_Segoe UI Semibold";
+    @media (max-width: 700px) {
+        position: relative;
+        left: 15%;
+    }
 }
 .user-phone {
     position: relative;
     right: 15%;
     font-family: "ofont.ru_Segoe UI Semibold";
+    @media (max-width: 700px) {
+        position: relative;
+        left: 15%;
+    }
 }
 .user-contact {
     display: inline;
@@ -336,6 +349,13 @@ form {
     border-bottom: 2px solid black;
     font-family: "ofont.ru_Segoe UI Semibold";
     outline: none;
+    @media (max-width: 700px) {
+        display: block;
+    }
+    @media (max-width: 700px) {
+        position: relative;
+        left: 15%;
+    }
 }
 .send-request-contact {
     input {
@@ -350,6 +370,11 @@ form {
         border: 1px solid white;
         &:hover, &:focus {
             background: #ffcb00;
+        }
+        @media (max-width: 700px) {
+            display: block;
+            position: relative;
+            left: 15%;
         }
     } 
 }
