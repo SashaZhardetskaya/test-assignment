@@ -17,6 +17,48 @@ $(document).ready(function(){
 	});
 });
 
+
+
+/* NENU */
+
+var mmenu = 'close';
+$(document).ready(function(){
+    $('.menu-burger').on('click', showMmenu);
+});
+function showMmenu(){
+	if (mmenu=='close') { 
+	$('.nav-links').css({
+		'display': 'block'
+	});
+	mmenu='open';
+	$('.burger-icon').fadeOut(800);
+	$('.close-icon').fadeIn(800);
+	}
+	else{ 
+	$('.nav-links').css('display','none');
+	mmenu = 'close';
+	$('.burger-icon').fadeIn(800);
+	$('.close-icon').fadeOut(800);
+	}
+}
+
+// $(document).ready(function(){ //services accardion
+// 	$('.service-block a').on('click', function(){
+// 		var n =$('.service-block a').index(this);
+// 		var currentHasVisible = $('.service-description').eq(n).hasClass('visible');
+// 		$('.service-description').addClass('hidden').removeClass('visible');
+// 		if (currentHasVisible) {
+// 			$('.service-description').eq(n).removeClass('visible');
+// 			$('.service-description').eq(n).addClass('hidden');
+// 		} else {
+// 			$('.service-description').eq(n).removeClass('hidden');
+// 			$('.service-description').eq(n).addClass('visible');
+// 		}
+// 	});
+// });
+
+
+
 /* ANCHORS	*/
 
 $(document).ready(function(){  //anchors

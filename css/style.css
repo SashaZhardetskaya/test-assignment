@@ -9,18 +9,25 @@ body {
   width: 100%;
   text-transform: uppercase;
   background: transparent;
+  display: flex;
+  justify-content: space-between;
   -webkit-transition-duration: 0.6s;
   -moz-transition-duration: 0.6s;
   -ms-transition-duration: 0.6s;
   -o-transition-duration: 0.6s;
   transition-duration: 0.6s; }
+  #nav-main .logo {
+    display: inline-block;
+    height: 123px;
+    width: 180px;
+    background: url(../img/logo.png) center center no-repeat; }
   #nav-main nav {
     height: 100%;
     width: 100%; }
     #nav-main nav a {
       height: 100%; }
   #nav-main .nav-links {
-    display: inline;
+    display: none;
     cursor: pointer;
     -webkit-transition-duration: 0.6s;
     -moz-transition-duration: 0.6s;
@@ -40,16 +47,30 @@ body {
     display: inline; }
   #nav-main.nav-down {
     background: white; }
+    #nav-main.nav-down .logo {
+      display: inline-block;
+      height: 52px;
+      width: 150px;
+      background: url(../img/logo-small.png) center center no-repeat; }
     #nav-main.nav-down .nav-links {
       padding: 24px 30px 10px 45px; }
-    #nav-main.nav-down .send-request-nav {
-      font-family: 'MyriadPro-Regular';
-      margin: 25px 0 20px 0; }
-      #nav-main.nav-down .send-request-nav a {
-        padding: 13px 3px 13px 3px;
-        border: 1px solid rgba(249, 217, 68, 0.7);
-        border-bottom: transparent;
-        background: transparent; }
+    #nav-main.nav-down .send-request-nav a {
+      padding: 13px 3px 13px 3px; }
+
+.menu-burger {
+  border: none;
+  background-color: inherit;
+  outline: none; }
+  .menu-burger .nav-active {
+    display: block;
+    height: 24px;
+    width: 29px;
+    background: url(../img/nav-active.png) center center no-repeat; }
+  .menu-burger .close-icon {
+    display: none;
+    height: 24px;
+    width: 29px;
+    background: url(../img/nav-pass.png) center center no-repeat; }
 
 .home {
   height: 100vh;
@@ -77,14 +98,20 @@ video {
   margin: 0;
   z-index: 3;
   background-color: rgba(251, 210, 37, 0.73); }
-  .content hr {
+
+.main-text {
+  position: relative;
+  top: 40%; }
+  .main-text hr {
     margin: 0;
     padding: 0;
     width: 10%; }
 
 form {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  position: absolute;
+  bottom: 15%; }
 
 .user-contacts-section {
   display: flex;
@@ -101,3 +128,11 @@ form {
 
 .send-request-contact {
   display: inline; }
+
+.mause {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  text-align: center; }
+  .mause p {
+    margin: 0; }
