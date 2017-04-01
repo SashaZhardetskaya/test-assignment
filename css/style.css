@@ -82,21 +82,19 @@ body {
     cursor: pointer;
     position: relative;
     top: 10px;
-    left: -160px;
+    left: -10%;
+    color: black;
     -webkit-transition-duration: 0.6s;
     -moz-transition-duration: 0.6s;
     -ms-transition-duration: 0.6s;
     -o-transition-duration: 0.6s;
     transition-duration: 0.6s; }
     #nav-main .nav-links a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: black;
+      font-family: 'ofont.ru_Segoe UI Semibold'; }
       #nav-main .nav-links a:hover, #nav-main .nav-links a:active, #nav-main .nav-links a:focus {
-        color: rgba(249, 217, 68, 0.7);
-        -webkit-transition-duration: 0.7s;
-        -moz-transition-duration: 0.7s;
-        -ms-transition-duration: 0.7s;
-        -o-transition-duration: 0.7s;
-        transition-duration: 0.7s; }
+        color: rgba(249, 217, 68, 0.7); }
   #nav-main .send-request-nav {
     display: inline;
     position: relative;
@@ -244,11 +242,15 @@ form {
       flex-direction: column; } }
 
 .user-name {
+  width: 100px;
   position: relative;
   left: 18%;
+  margin: 0 3px 0 0;
   font-family: "ofont.ru_Segoe UI Semibold"; }
 
 .user-email {
+  width: 100px;
+  margin: 0 3px 0 0;
   font-family: "ofont.ru_Segoe UI Semibold"; }
   @media (max-width: 700px) {
     .user-email {
@@ -256,6 +258,7 @@ form {
       left: 15%; } }
 
 .user-phone {
+  width: 100px;
   position: relative;
   right: 18%;
   font-family: "ofont.ru_Segoe UI Semibold"; }
@@ -270,7 +273,8 @@ form {
   border: transparent;
   border-bottom: 2px solid black;
   font-family: "ofont.ru_Segoe UI Semibold";
-  outline: none; }
+  outline: none;
+  margin: 0 3px 0 0; }
   @media (max-width: 700px) {
     .user-contact {
       display: block; } }
@@ -308,6 +312,7 @@ form {
   text-align: center;
   margin-top: 100px; }
   .mause p {
+    font-size: 85%;
     padding: 0;
     margin: 0;
     color: white;
