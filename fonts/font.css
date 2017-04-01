@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'SegoeUI-BoldItalic';
+  src: url('SegoeUI-BoldItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'segoeuiz';
+  src: url('segoeuiz.eot');
+  src: url('segoeuiz.woff2') format('woff2'),
+       url('segoeuiz.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

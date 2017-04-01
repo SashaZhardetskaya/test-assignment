@@ -1,3 +1,49 @@
+@font-face {
+  font-family: 'SegoeUI-Semilight';
+  src: url("SegoeUI-Semilight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'segoeuisl';
+  src: url("segoeuisl.eot");
+  src: url("segoeuisl.woff2") format("woff2"), url("segoeuisl.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SegoeUI-Light';
+  src: url("SegoeUI-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'segoeuil';
+  src: url("segoeuil.eot");
+  src: url("segoeuil.woff2") format("woff2"), url("segoeuil.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url("Raleway-Bold.eot");
+  src: url("Raleway-Bold.woff2") format("woff2"), url("Raleway-Bold.woff") format("woff"), url("Raleway-Bold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SegoeUI-BoldItalic';
+  src: url("SegoeUI-BoldItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'segoeuiz';
+  src: url("segoeuiz.eot");
+  src: url("segoeuiz.woff2") format("woff2"), url("segoeuiz.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   margin: 0;
   height: 5000px; }
@@ -131,29 +177,37 @@ form {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-between; }
+  justify-content: space-between;
+  text-transform: uppercase; }
   .user-contacts-section p {
     margin: 0; }
 
 .user-name {
   position: relative;
-  left: 15%; }
+  left: 15%;
+  font-family: "segoeuil"; }
+
+.user-email {
+  font-family: "segoeuil"; }
 
 .user-phone {
   position: relative;
-  right: 15%; }
+  right: 15%;
+  font-family: "segoeuil"; }
 
 .user-contact {
   display: inline;
   background: transparent;
   border: transparent;
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid black;
+  font-family: "segoeuil"; }
 
 .send-request-contact input {
   display: inline;
   background: transparent;
   position: relative;
-  right: 15%; }
+  right: 15%;
+  font-family: "segoeuil"; }
 
 .mause {
   position: absolute;
@@ -161,4 +215,5 @@ form {
   left: 50%;
   text-align: center; }
   .mause p {
-    margin: 0; }
+    margin: 0;
+    color: white; }
