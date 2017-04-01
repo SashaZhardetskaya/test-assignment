@@ -118,6 +118,8 @@ body {
         height: 123px;
         width: 180px;
         background: url(../img/logo.png) center center no-repeat;
+        position: relative;
+        left: 10%;
     }
     nav {
         height: 100%;
@@ -146,6 +148,15 @@ body {
     }
     .send-request-nav {
         display: inline;
+        position: relative;
+        // top: 5%;
+        right: 10%;
+        a {
+            border: 1px solid black;
+            @include border-radius (25px);
+            position: relative;
+            top: 7%;
+        }
     }
     // &.nav-top {
     //     background: transparent;
@@ -156,17 +167,17 @@ body {
         .logo {
             display: inline-block;
             height: 52px;
-            width: 150px;
+            width: 180px;
             background: url(../img/logo-small.png) center center no-repeat;
         }
-        .nav-links {
-            padding: 24px 30px 10px 45px;
-        }
-        .send-request-nav {
-            a {
-                padding: 13px 3px 13px 3px;
-            }
-        }
+        // .nav-links {
+        //     padding: 24px 30px 10px 45px;
+        // }
+        // .send-request-nav {
+        //     a {
+        //         padding: 13px 3px 13px 3px;
+        //     }
+        // }
     }
 }
 
