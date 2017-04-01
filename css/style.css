@@ -100,6 +100,9 @@ body {
     display: inline;
     position: relative;
     right: 10%; }
+    @media (max-width: 360px) {
+      #nav-main .send-request-nav {
+        display: none; } }
     #nav-main .send-request-nav a {
       border: 1px solid white;
       -webkit-border-radius: 25px;
@@ -221,8 +224,7 @@ form {
   @media (max-width: 700px) {
     form {
       flex-direction: column;
-      top: 400px;
-      bottom: 5%; } }
+      top: 400px; } }
 
 .user-contacts-section {
   display: flex;
@@ -298,7 +300,8 @@ form {
   position: absolute;
   bottom: 1%;
   left: 50%;
-  text-align: center; }
+  text-align: center;
+  margin-top: 100px; }
   .mause p {
     margin: 0;
     color: white;
