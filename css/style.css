@@ -79,6 +79,9 @@ body {
   #nav-main .nav-links {
     display: none;
     cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: -160px;
     -webkit-transition-duration: 0.6s;
     -moz-transition-duration: 0.6s;
     -ms-transition-duration: 0.6s;
@@ -105,7 +108,7 @@ body {
       -o-border-radius: 25px;
       border-radius: 25px;
       position: relative;
-      top: 15%;
+      top: 60%;
       padding: 5px 10px 5px 10px;
       cursor: pointer;
       font-size: 10px;
@@ -119,25 +122,32 @@ body {
       height: 72px;
       width: 180px;
       background: url(../img/logo-small.png) center center no-repeat; }
+    #nav-main.nav-down .menu-burger {
+      top: 5px; }
+    #nav-main.nav-down .nav-links {
+      top: 45px; }
+    #nav-main.nav-down .send-request-nav a {
+      border: 1px solid #ffca28; }
 
 .menu-burger {
   border: none;
   background-color: inherit;
   outline: none;
   position: fixed;
-  right: 50%; }
+  right: 50%;
+  top: 55px; }
   .menu-burger .nav-active {
     display: block;
     margin-top: 32%;
     height: 24px;
     width: 29px;
-    background: url(../img/nav-active.png) center center no-repeat; }
+    background: url(../img/nav-pass.png) center center no-repeat; }
   .menu-burger .nav-pass {
     display: block;
     margin-top: 32%;
     height: 24px;
     width: 29px;
-    background: url(../img/nav-pass.png) center center no-repeat; }
+    background: url(../img/nav-active.png) center center no-repeat; }
 
 .home {
   height: 100vh;
@@ -251,4 +261,5 @@ form {
   text-align: center; }
   .mause p {
     margin: 0;
-    color: white; }
+    color: white;
+    font-family: 'segoeuil'; }

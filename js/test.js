@@ -24,7 +24,7 @@ $(document).ready(function(){
 var mmenu = 'close';
 $(document).ready(function(){
     $('.menu-burger').on('click', showMmenu);
-    $('.nav-links').on('click', showBurger);
+    // $('.nav-links').on('click', showBurger);
 });
 function showMmenu(){
 	if (mmenu=='close') { 
