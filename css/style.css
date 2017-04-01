@@ -123,7 +123,9 @@ body {
 .menu-burger {
   border: none;
   background-color: inherit;
-  outline: none; }
+  outline: none;
+  position: fixed;
+  right: 50%; }
   .menu-burger .nav-active {
     display: block;
     margin-top: 32%;

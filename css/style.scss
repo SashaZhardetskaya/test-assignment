@@ -191,6 +191,8 @@ body {
     background-color: inherit;
     // color: #35bdf6;
     outline: none;
+    position: fixed;
+    right: 50%;
     .nav-active {
         display: block;
         margin-top: 32%;
