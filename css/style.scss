@@ -196,17 +196,26 @@ form {
     flex-direction: row;
 
 }
-.user-name {
+// .user-name {
+//     display: inline;
+// }
+// .user-email {
+//     display: inline;
+// }
+// .user-phone {
+//     display: inline;
+// }
+.user-contact {
     display: inline;
-}
-.user-email {
-    display: inline;
-}
-.user-phone {
-    display: inline;
+    background: transparent;
+    border: transparent;
+    border-bottom: 2px solid black;
 }
 .send-request-contact {
-    display: inline;
+    input {
+        display: inline;
+        background: transparent;  
+    } 
 }
 
 

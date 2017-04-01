@@ -117,17 +117,15 @@ form {
   display: flex;
   flex-direction: row; }
 
-.user-name {
-  display: inline; }
+.user-contact {
+  display: inline;
+  background: transparent;
+  border: transparent;
+  border-bottom: 2px solid black; }
 
-.user-email {
-  display: inline; }
-
-.user-phone {
-  display: inline; }
-
-.send-request-contact {
-  display: inline; }
+.send-request-contact input {
+  display: inline;
+  background: transparent; }
 
 .mause {
   position: absolute;
