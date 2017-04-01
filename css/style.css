@@ -198,6 +198,9 @@ video {
   position: relative;
   top: 200px;
   left: 15%; }
+  @media (min-height: 700px) {
+    .main-text {
+      top: 400px; } }
   .main-text hr {
     margin: 0;
     padding: 0;
