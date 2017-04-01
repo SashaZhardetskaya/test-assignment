@@ -80,6 +80,14 @@
           transition-duration: $duration;
 }
 
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
 body {
     margin: 0;
     height: 5000px;
@@ -317,6 +325,8 @@ form {
         position: relative;
         right: 15%;  
         font-family: "segoeuil";
+        outline: none;
+        @include border-radius (25px);
     } 
 }
 
