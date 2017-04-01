@@ -162,6 +162,10 @@ video {
   margin: auto;
   position: absolute;
   padding: 0; }
+  @media (max-width: 1000px) {
+    video {
+      height: 100vh;
+      width: auto; } }
 
 .content {
   position: relative;
