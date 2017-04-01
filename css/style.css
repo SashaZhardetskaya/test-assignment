@@ -1,0 +1,33 @@
+body {
+  margin: 0; }
+
+.home {
+  height: 100vh;
+  position: relative;
+  overflow: hidden; }
+
+.content {
+  position: relative;
+  bottom: 0%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 444;
+  background-color: rgba(251, 210, 37, 0.73); }
+  .content hr {
+    margin: 0;
+    padding: 0;
+    width: 10%; }
+
+video {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  padding: 0; }

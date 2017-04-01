@@ -1,0 +1,81 @@
+// @import './bootstrap.min';
+// @import './animate.min';
+// @import 'font-awesome-4.7.0/scss/font-awesome';
+// @import './fonts';
+
+
+body {
+    margin: 0;
+}
+
+.home {
+    height: 100vh;
+    // height: auto;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.content {
+    position: relative;
+    bottom: 0%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 444;
+    background-color: rgba(251, 210, 37, 0.73);
+    // h2 {
+    //     margin: 0;
+    // }
+    // h3 {
+    //     margin: 0;
+    // }
+    hr {
+        margin: 0;
+        padding: 0;
+        width: 10%;
+    }
+}
+
+video {
+    // height: 100vh;
+    // position: relative;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    // top: 0%;
+    // left: 0%;
+    padding: 0;
+    // @media (max-width: 920px) {
+    //     height: 100%;
+    //     width: auto;
+    // }
+}
+
+
+
+
+
+// %link-button {  //extend this to <a>
+//  padding: 12px 40px;
+//  color: white;
+//     border: 3px solid;
+//     border-radius: 0px;
+//     text-decoration: none;
+//     text-transform: uppercase;
+//  font-family: "GothamProRegular";
+//  font-size: 12px;
+//     cursor: pointer;
+//     &:hover, &:focus {
+//      color: #35bdf6;
+//      outline: 5px auto -webkit-focus-ring-color;
+//     }
+// }
+
