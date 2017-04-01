@@ -173,6 +173,10 @@ video {
   margin: auto;
   position: absolute;
   padding: 0; }
+  @media (max-width: 1230px) {
+    video {
+      height: 100vh;
+      width: auto; } }
   @media (max-width: 800px) {
     video {
       height: 100%;
